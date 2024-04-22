@@ -27,7 +27,7 @@ background-color: #C76D7E;
 export const BoxLogo = styled.div`
 width: 100%;
 height: 38vh;
-color: white;
+color: #f3e7d7 ;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -44,12 +44,10 @@ img{
 `
 
 export const Title = styled.h2`
-
 width: 100%;
 text-align: center;
 `
 export const Text = styled.p`
-
 width: 100%;
 text-align: center;
 `
@@ -71,7 +69,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 a{
-  color: #190B28 ;
+  color: #f3e7d7 ;
 }
 @media (max-width: 500px) {
     height: 5vh;

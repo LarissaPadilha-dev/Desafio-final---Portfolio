@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import * as S from "./styled"
-import logo from "../../assets/Logo dev LP.png"
+import logo from "../../assets/LogoLP.png"
 
 
 export default function Header() {
@@ -21,5 +21,5 @@ export default function Header() {
             </ul>
         </S.BoxMenu>
     </S.Header>
-  )
+  );
 }

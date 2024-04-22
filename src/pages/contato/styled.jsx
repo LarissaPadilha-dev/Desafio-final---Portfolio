@@ -9,3 +9,7 @@ background-color: #F4AFAB;
     flex-direction: column;
 }
 `
+export const Text = styled.div`
+`
+export const BoxContato = styled.section`
+`
