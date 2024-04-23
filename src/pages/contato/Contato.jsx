@@ -12,9 +12,12 @@ export default function Contato() {
         <h2>Contato</h2>
       </S.Text> 
       <S.BoxContato>
-      <a href=""><img src={linkedin} alt="imagem do linkedin" /></a>
+      <a href="https://www.linkedin.com/in/larissapm23"><img src={linkedin} alt="imagem do linkedin" /></a>
+      <p>Linkedin</p>
       <a href=""><img src={email} alt="imagem email" /></a>
-      <a href=""><img src={git} alt="imagem do github" /></a>
+      <p>Email</p>
+      <a href="https://github.com/Laridev18"><img src={git} alt="imagem do github" /></a>
+      <p>Github</p>
       </S.BoxContato>
     </S.Main>
   )

@@ -10,7 +10,7 @@ export default function Inicio() {
         <S.BoxInicio>
         <img src={foto} alt="foto de apresentação" />
         <div>
-        <h1>Olá sou Larissa</h1>
+        <h2>Olá sou Larissa</h2>
         <p>Desenvolvedora Front-end</p>
         </div>
        </S.BoxInicio>

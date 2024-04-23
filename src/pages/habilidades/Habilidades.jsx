@@ -10,9 +10,9 @@ export default function Habilidades() {
   return (
     <S.Main>
       <Header/>
-      <section>
+      <S.Title>
         <h2>Habilidades</h2>
-      </section>
+      </S.Title>
       <S.BoxHabilidades>
       <a href=""><img src={html} alt="imagem de componente html" /></a>
       <a href=""><img src={css} alt="imagem de componente css" /></a>

@@ -7,22 +7,24 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
 }
-`
-
-
+`;
 
 export const Header = styled.header`
-width: 15vw;
+width: 20vw;
+display: flex;
+align-items: center;
+flex-direction: column;
 background-color: #C76D7E;
 @media (max-width: 750px) {
     width: 20vw;
 }
 @media (max-width: 500px) {
     width: 100%;
-    height: 30vh;
+    height: 33vh;
 }
-`
+`;
 
 export const BoxLogo = styled.div`
 width: 100%;
@@ -33,7 +35,7 @@ flex-direction: column;
 align-items: center;
 justify-content: space-evenly;
 img{
-    width: 10vw;
+    width: 12vw;
     border-radius: 50%;
 }
 @media (max-width: 500px) {
@@ -41,30 +43,37 @@ img{
     padding-left: 1rem;
     flex-direction: row;
 }
-`
+`;
 
 export const Title = styled.h2`
 width: 100%;
 text-align: center;
-`
+color: #f3e7d7 ;
+`;
+
 export const Text = styled.p`
 width: 100%;
 text-align: center;
-`
+color: #f3e7d7 ;
+@media (max-width: 500px) {
+    display: none;
+}
+`;
 
 export const BoxMenu = styled.nav`
 height: 38vh;
 width: 100%;
 li:nth-child(1){
-    border-top: solid 1px white;
+    border-top: solid 1px #f3e7d7;
 }
 @media (max-width: 500px) {
     height: 15vh;
 }
-`
+`;
+
 export const Lista = styled.li`
-border-bottom: solid 1px white;
-height: 12.6vh;
+border-bottom: solid 1px #f3e7d7;
+height: 12.4vh;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -75,4 +84,4 @@ a{
     height: 5vh;
    
 }
-`
+`;

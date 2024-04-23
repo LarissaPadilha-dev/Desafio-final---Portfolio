@@ -6,7 +6,9 @@ export default function Sobre() {
     <S.Main>
       <Header/>
       <S.Container>
-        <h1>Sobre</h1>
+        <div>
+          <h2>Sobre</h2>
+        </div>
         <p>Olá!! Sou a Larissa, Minha jornada profissional teve início na área de alimentos, onde me formei como Tecnóloga em Alimentos e me especializei em Vigilância Sanitária e Qualidade de Alimentos e em Microbiologia Avançada. 
           Essa experiência me proporcionou um conhecimento profundo da indústria alimentícia e me ensinou a importância da qualidade e da segurança alimentar. 
           Uma entusiasta da tecnologia e sempre fascinada pelo mundo digital, busquei aprimorar meus conhecimentos em nessa área me formando no curso técnico em Redes de Computadores. 
