@@ -17,11 +17,22 @@ justify-content: center;
 align-items: center;
 
 
-`
+`;
 
 export const BoxImg = styled.div`
 width: 70vw;
 img{
     width: 20vw;
 }
-`
+button {
+padding: 10px 20px;
+background-color: #C76D7E;
+border: none;
+border-radius: 5px;
+color: white;
+  &:hover{
+    padding: 8px 20px;
+    background-color:#F4AFAB;
+  }
+}
+`;
