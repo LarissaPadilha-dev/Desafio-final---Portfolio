@@ -14,9 +14,15 @@ export const Container = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  /* div {
-    width: 50%;
-  } */
+`;
+
+export const Texto = styled.div`
+width: 70%;
+text-align: center; 
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 `;
 
 export const BoxInicio = styled.div`
@@ -36,5 +42,6 @@ p{
 img{
     width: 27.6vw;
     border-radius: 10px;
+    display: flex;
 }
 `;

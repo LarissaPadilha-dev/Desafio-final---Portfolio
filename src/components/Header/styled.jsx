@@ -8,6 +8,9 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 `;
 

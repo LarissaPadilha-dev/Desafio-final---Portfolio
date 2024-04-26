@@ -10,18 +10,22 @@ background-color: #E1ACB4;
 }
 `;
 
-export const Container = styled.section`
+export const Sobre = styled.section`
 text-align: center; 
 display: flex;
 flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 79.3%;
+height: 88vh;
 h2{
-    padding: 24px 0 24px 0;
+    text-align: center;
     font-size: 4rem;
     color:  #f3e7d7;
 }
 p{
     font-size: 1.4rem;
-    color: #f3e7d7;
+    color: #C76D7E;
 }
 @media (max-width: 500px) {
     flex-direction: column;

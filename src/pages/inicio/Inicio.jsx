@@ -9,10 +9,10 @@ export default function Inicio() {
       <S.Container>
         <S.BoxInicio>
         <img src={foto} alt="foto de apresentação" />
-        <div>
+        <S.Texto>
         <h2>Olá sou Larissa</h2>
         <p>Desenvolvedora Front-end</p>
-        </div>
+        </S.Texto>
        </S.BoxInicio>
       </S.Container>
     </S.Main>
