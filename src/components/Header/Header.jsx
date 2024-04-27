@@ -13,7 +13,7 @@ export default function Header() {
       </S.BoxLogo>
         <S.BoxMenu>
             <ul>
-                <S.Lista><Link to="/">Inicio</Link></S.Lista>
+                <S.Lista><Link to="/">Início</Link></S.Lista>
                 <S.Lista><Link to="/sobre">Sobre mim</Link></S.Lista>
                 <S.Lista><Link to="/habilidades">Habilidades</Link></S.Lista>
                 <S.Lista><Link to="/projeto">Projetos</Link></S.Lista>

@@ -1,10 +1,10 @@
 import styled from "styled-components";
-
+import rosa from "../../assets/rosa.jpg";
 
 export const Main = styled.main`
 height: 100vh;
 display: flex;
-background-color: #E1ACB4;
+background-image: url(${rosa});
 @media (max-width: 500px) {
     flex-direction: column;
 }

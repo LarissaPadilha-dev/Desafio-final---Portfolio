@@ -8,16 +8,16 @@ export default function Contato() {
   return (
     <S.Main>
       <Header/>
-      <S.Text>
-        <h2>Contato</h2>
-      </S.Text> 
       <S.BoxContato>
+      <h2>Contato</h2>
+      <figure>
       <a href="https://www.linkedin.com/in/larissapm23"><img src={linkedin} alt="imagem do linkedin" /></a>
       <p>Linkedin</p>
       <a href=""><img src={email} alt="imagem email" /></a>
       <p>Email</p>
       <a href="https://github.com/Laridev18"><img src={git} alt="imagem do github" /></a>
       <p>Github</p>
+      </figure>
       </S.BoxContato>
     </S.Main>
   )

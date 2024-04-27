@@ -10,15 +10,15 @@ export default function Habilidades() {
   return (
     <S.Main>
       <Header/>
-      <S.Title>
-        <h2>Habilidades</h2>
-      </S.Title>
       <S.BoxHabilidades>
+      <h2>Habilidades</h2>
+      <figure>
       <a href=""><img src={html} alt="imagem de componente html" /></a>
       <a href=""><img src={css} alt="imagem de componente css" /></a>
       <a href=""><img src={js} alt="imagem de componente js" /></a>
       <a href=""><img src={react} alt="imagem de componente react" /></a>
       <a href=""><img src={styled} alt="imagem de componente styled-components" /></a>
+      </figure>
       </S.BoxHabilidades>
     </S.Main>
   )

@@ -3,6 +3,7 @@ import * as S from "./styled"
 import foto from "../../assets/Lari.jpg"
 
 export default function Inicio() {
+  
   return (
     <S.Main>
       <Header />

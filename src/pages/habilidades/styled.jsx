@@ -1,38 +1,36 @@
 import styled from "styled-components";
+import rosa from "../../assets/rosa.jpg"
 
 
 export const Main = styled.main`
 height: 100vh;
 display: flex;
-background-color: #F4AFAB;
-@media (max-width: 500px) {
-    flex-direction: column;
-}
-`;
-
-export const Title = styled.div`
-text-align: center; 
-display: flex;
-flex-direction: column;
-h2{
-    padding: 24px 0 24px 0;
-    font-size: 2rem;
-    color:  #f3e7d7;
-}
+background-image: url(${rosa});
 @media (max-width: 500px) {
     flex-direction: column;
 }
 `;
 
 export const BoxHabilidades = styled.div`
-height: 100vh;
-width: 100%;
+width: 80vw;
+height: 60vh;
+text-align:center;
 display: flex;
-align-items: center;
-justify-content: center;
+flex-direction: column;
+justify-content: space-between;
+h2{
+    text-align:center;
+    font-size: 2rem;
+    color: #974755;
+}
+figure{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 img{
     width: 10vw;
-    height: 21vh;
+    height: 20vh;
 }
 @media (max-width: 500px) {
     flex-direction: column;
