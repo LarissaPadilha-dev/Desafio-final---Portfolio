@@ -80,7 +80,14 @@ height: 12.4vh;
 display: flex;
 justify-content: center;
 align-items: center;
+&:hover {
+    background-color:#974755; 
+    cursor: pointer; 
+  }
 a{
+&:hover {
+    color: black;
+}
   color: #f3e7d7 ;
 }
 @media (max-width: 500px) {
@@ -88,3 +95,4 @@ a{
    
 }
 `;
+
