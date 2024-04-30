@@ -23,7 +23,7 @@ export default function Sobre() {
     <S.Main>
       <Header/>
       <S.Sobre>
-        <h2>Sobre</h2>
+        <h2>Sobre mim</h2>
         <p>{displayText}</p>
       </S.Sobre>
     </S.Main>

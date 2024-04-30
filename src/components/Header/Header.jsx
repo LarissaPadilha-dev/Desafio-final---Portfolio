@@ -14,7 +14,7 @@ export default function Header() {
         <S.BoxMenu>
             <ul>
                 <S.Lista><Link to="/">Início</Link></S.Lista>
-                <S.Lista><Link to="/sobre">Sobre mim</Link></S.Lista>
+                <S.Lista><Link to="/sobre">Sobre</Link></S.Lista>
                 <S.Lista><Link to="/habilidades">Habilidades</Link></S.Lista>
                 <S.Lista><Link to="/projeto">Projetos</Link></S.Lista>
                 <S.Lista><Link to="/contato">Contato</Link></S.Lista>

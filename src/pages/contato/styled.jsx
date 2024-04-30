@@ -22,6 +22,11 @@ h2{
     font-size: 2rem;
     color: #974755;
 }
+p{
+    text-align:center;
+    font-size: 1rem;
+    color: #974755;
+}
 figure{
     display: flex;
     justify-content: space-evenly;
